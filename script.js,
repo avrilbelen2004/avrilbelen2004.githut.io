@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular – Magisterio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📚 Malla Curricular – Magisterio (Plan 2023)</h1>
+
+  <!-- Año 1 -->
+  <section class="year" id="year1">
+    <h2>Año 1</h2>
+    <div class="grid">
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Introducción al campo profesional – 12</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Lengua en la formación de maestros – 9</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Matemática I – 6</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Desarrollo Humano Integral – 9</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Año 2 -->
+  <section class="year" id="year2">
+    <h2>Año 2</h2>
+    <div class="grid">
+      <!-- agregar las 2º año exoneradas/aprobadas -->
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Educación, Sociedad y Cultura – 9</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>La educación y sus transformaciones en la historia – 10</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Teorías pedagógicas – 9</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Cuerpo, expresión y movimiento – 9</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Tecnologías multimediales – 11</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Convivencia y resolución de conflictos – 12</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Didáctica Práctica Docente I – 9</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Ciencias Sociales: Geografía – 9</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Ciencias Sociales: Historia – 9</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Ética y formación ciudadana – 9</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Aprendizaje, neurociencias y procesos socioafectivos – 10</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Sistema Educativo: Normativa – 9</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Sistema Educativo: Políticas – 9</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Año 3 -->
+  <section class="year" id="year3">
+    <h2>Año 3</h2>
+    <div class="grid">
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Educación Artística: Artes visuales – 9</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Pensamiento computacional – 10</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Música y danza – 12</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Problemas epistemológicos y pensamiento científico – 9</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+      <div class="card done" onclick="toggleCard(this)">
+        <h3>Investigación Educativa Aplicada: diseño de proyectos – 10</h3>
+        <div class="details"><p>Exonerada.</p></div>
+      </div>
+
+      <!-- pendientes -->
+      <div class="card pending" onclick="toggleCard(this)">
+        <h3>Filosofía de la Educación ❌</h3>
+        <div class="details"><p>Por rendir.</p></div>
+      </div>
+      <div class="card pending" onclick="toggleCard(this)">
+        <h3>Ciencias de la Naturaleza – Fisicoquímica ❌</h3>
+        <div class="details"><p>Por rendir.</p></div>
+      </div>
+      <div class="card pending" onclick="toggleCard(this)">
+        <h3>Juego y recreación ❌</h3>
+        <div class="details"><p>Por rendir.</p></div>
+      </div>
+      <div class="card pending" onclick="toggleCard(this)">
+        <h3>Didáctica Práctica Docente II (anual) ❌</h3>
+        <div class="details"><p>Por rendir.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Año 4 -->
+  <section class="year" id="year4">
+    <h2>Año 4</h2>
+    <div class="grid">
+      <!-- pendientes 4° -->
+      <div class="card pending" onclick="toggleCard(this)">
+        <h3>El contexto escolar, instituciones, comunidad y redes ❌</h3>
+        <div class="details"><p>Por rendir.</p></div>
+      </div>
+      <div class="card pending" onclick="toggleCard(this)">
+        <h3>Investigación Educativa Aplicada (proyectos) ❌</h3>
+        <div class="details"><p>Por rendir.</p></div>
+      </div>
+      <div class="card pending" onclick="toggleCard(this)">
+        <h3>Didáctica Práctica Docente III ❌</h3>
+        <div class="details"><p>Por rendir.</p></div>
+      </div>
+      <div class="card pending" onclick="toggleCard(this)">
+        <h3>Educación ambiental y sostenibilidad ❌</h3>
+        <div class="details"><p>Por rendir.</p></div>
+      </div>
+      <div class="card pending" onclick="toggleCard(this)">
+        <h3>Educación en Salud y Sexualidad ❌</h3>
+        <div class="details"><p>Por rendir.</p></div>
+      </div>
+      <div class="card pending" onclick="toggleCard(this)">
+        <h3>Literatura ❌</h3>
+        <div class="details"><p>Por rendir.</p></div>
+      </div>
+      <div class="card pending" onclick="toggleCard(this)">
+        <h3>Lengua Extranjera I ❌</h3>
+        <div class="details"><p>Por rendir.</p></div>
+      </div>
+      <div class="card pending" onclick="toggleCard(this)">
+        <h3>Lengua Extranjera II ❌</h3>
+        <div class="details"><p>Por rendir.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
